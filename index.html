@@ -1,114 +1,189 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 
 <head>
-	<title>SpiderX</title>
-	<!--Title Logo-->
-	<link rel="shortcut icon" type="image/x-icon" href="ico/title_logo.ico" />
-	<!--Css Link-->
-	<link rel="stylesheet" type="text/css" href="design.css">
-	<link href="https://fonts.googleapis.com/css?family=Mali|Roboto+Slab" rel="stylesheet">
-	
+    <title>Robin Hossen | Full-Stack Developer</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- GOOGLE FONTS -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+    <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/css/bootstrap.min.css' />
+
+    <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="fonts/font-awesome/css/font-awesome.min.css">
+
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- RESPONSIVE CSS -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 
-<!--Main Background Image-->
+<body>
+    <header id="home">
+        <nav class="navbar navbar-expand-md">
+            <div class="container">
+                <div class="navbar-brand">
+                    <a href="#">Robin Hossen</a>
+                </div>
+                <button class="navbar-toggler" data-target="#myNav" data-toggle="collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="myNav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#skill-2" class="nav-link">Skills</a>
+                        </li>
+                        <li class="nav-item round">
+                            <a href="mailto:darcyrobin2@gmail.com" class="nav-link">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 
-<body background="img/background.jpg">
+        <div class="hero">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-5">
+                        <div class="hero-content">
+                            <div class="hlw">Hello, I'm</div>
+                            <div class="name">Robin Hossen</div>
+                            <div class="designation">Full-Stack Developer</div>
+                            <div class="social">
+                                <ul>
+                                    <li>
+                                        <a href="https://www.facebook.com/darcyrobin4" target="_blank" style="background: #3a5898">
+                                            <i class="fa fa-facebook"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.twitter.com/ROBINHOSSEN" target="_blank" style="background: #14578b">
+                                            <i class="fa fa-twitter"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://www.linkedin.com/in/darcy-robin-296512144/" target="_blank" style="background: #56abee">
+                                            <i class="fa fa-linkedin"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="https://github.com/darcyrobin" target="_blank" style="background: #007bb6">
+                                            <i class="fa fa-github"></i>
+                                        </a>
+                                    </li>
+                                    <li>
+                                        <a href="tel:+8801747258860" target="_blank" style="background: #189d0e">
+                                            <i class="fa fa-whatsapp"></i>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="hero-button">
+                                <a href="mailto:darcyrobin2@gmail.com" class="hire">Hire Me</a>
+                                <a href="https://drive.google.com/open?id=1QjWpR9HjWUGrhAR4-_QceKEozTeK7PfX" target="_blank"
+                                    class="resume">See My Full Resume</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 offset-md-1">
+                        <img src="img/dev2.gif" alt="#" class="img-fluid hero-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
 
-	<!-- welcome to SpiderX -->
-	<header>
-		<img src="ico/Profile_Logo.png" alt="">
-		<h1 class="welcome">Welcome To SpiderX</h1>
-		<img src="ico/Profile_Logo.png" alt="">
-	</header>
-	<br>
-	<div class="post-wrapper">
-		<div class="allbutton">
-			<a href="home.html" class="button" style="color:#ffffff">Home</a><br>
-			<a href="" class="button mid eng" style="color:#ffffff">English Movie</a><br>
-			<a href="" class="button mid hin" style="color:#ffffff">Hindi Movie</a><br>
-			<a href="" class="button mid" style="color:#ffffff">Bangla Movie</a><br>
-			<a href="https://www.youtube.com/channel/UCLg5GM4uIgqpbZej0ra6zjw/playlists" class="button" style="color:#ffffff">Gaming Video</a><br>
-			<a href="" class="button about" style="color:#ffffff">About Us</a><br>
-		</div>
 
-		<div class="recentpost">
-			<div class="movie-item" href="#">
-				<a href="torrent/Incredibles_2.torrent">
-					<img src="img/incredible-2.jpg" alt="Incredible-2-thumbnail">
-					<p>Incredible 2</p>
-				</a>
-			</div>
-			<div class="movie-item" href="#">
-				<a href="torrent/How_to_Train_Your_Dragon_2.torrent">
-					<img src="img/how-to-train-your-dragon-3.jpg" alt="">
-					<p>How To Train Your Dragon 3</p>
-				</a>
-			</div>
-			<div class="movie-item" href="#">
-				<a href="#">
-					<img src="img/leo-da-vinci-mission-monalisa.jpg" alt="">
-					<p>Leo Da Vinci Mission Monalisa</p>
-				</a>
-			</div>
-			<div class="movie-item" href="#">
-				<a href="torrent/Hotel_Transylvania_3_Summer_Vacation.torrent">
-					<img src="img/hotel-transylvania-3.jpg" alt="">
-					<p>Hotel Transylvania 3</p>
-				</a>
-			</div>
-			<div class="movie-item" href="#">
-				<a href="#">
-					<img src="img/small-foot.jpg" alt="">
-					<p>Small Foot</p>
-				</a>
-			</div>
-			<div class="movie-item" href="#">
-				<a href="#">
-					<img src="img/christopher-robin.jpg" alt="">
-					<p>Christopher Robin</p>
-				</a>
-			</div>
-			<div class="movie-item" href="#">
-				<a href="torrent/Coco.torrent">
-					<img src="img/coco.jpg" alt="">
-					<p>Coco</p>
-				</a>
-			</div>
-			<div class="movie-item" href="#">
-				<a href="torrent/Cars_2.torrent">
-					<img src="img/car-3.jpg" alt="">
-					<p>Car 2</p>
-				</a>
-			</div>
-			<div class="movie-item" href="#">
-				<a href="torrent/The_Boss_Baby.torrent">
-					<img src="img/the-boss-baby.jpg" alt="">
-					<p>The Boss Baby</p>
-				</a>
-			</div>
-			<div class="movie-item" href="#">
-				<a href="torrent/Moana.torrent">
-					<img src="img/moana.jpg" alt="">
-					<p>Moana</p>
-				</a>
-			</div>
-			<div class="movie-item" href="#">
-				<a href="#">
-					<img src="img/the-lego-batman-movie.jpg" alt="">
-					<p>The Lego Batman Movie</p>
-				</a>
-			</div>
-			<div class="movie-item" href="#">
-				<a href="torrent/Zootopia.torrent">
-					<img src="img/zootopia.jpg" alt="">
-					<p>Zootopia</p>
-				</a>
-			</div>
-		</div>
-	</div>
-	<footer>
-		<p>Copyright &copy; 2018. Developed by Darcy Robin</p>
-	</footer>
+
+
+    <section class="skill-2" id="skill-2">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 mx-auto text-center">
+                    <div class="title">My Skills</div>
+                    <div class="sub-title">I've these skills</div>
+                </div>
+            </div>
+            <div class="row skill-gallery align-items-center mt-5">
+                <div class="col-md-6">
+                    <img src="img/skills.png" alt="#" class="img-fluid">
+                </div>
+                <div class="col-md-6 mt-4 mt-md-0">
+                    <div class="skill-set">
+                        <div class="skill-item">
+                            <div class="skill-name">HTML, CSS</div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 95%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">Bootstrap, JS</div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 88%"></div>
+                            </div>
+                        </div>
+                        <div class="skill-item">
+                            <div class="skill-name">PHP</div>
+                            <div class="progress">
+                                <div class="progress-bar" style="width: 60%"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+    <!-- PERSONAL PROJECTS -->
+
+    <section class="personal-project section-padd work-content" id="work">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-6 mb-5 mx-auto text-center">
+                    <div class="title">My Project</div>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-md-4 col-lg-3 mb-4">
+                    <a href="./movie-download/index.html">
+                        <img src="img/1a.jpg" alt="myworks" class="img-fluid">
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <a href="mailto:darcyrobin2@gmail.com">
+                    <button style="outline: none;">Contact Me</button>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 mx-auto text-center">
+                    <div class="lgo">SpiderX</div>
+                    <p>Copyright &copy; 2019</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
