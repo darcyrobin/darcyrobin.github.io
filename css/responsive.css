@@ -3,13 +3,8 @@
     .navbar{
         padding: 15px 0px 3px 0px;
     }
-    /* .navbar.shrink {
-        padding: 10px 0px 8px;
-    } */
     .hero{
         background: none;
-        /* background-size: cover;
-        background-position: right; */
     }
     .hero-img{
         display: block;
